@@ -94,6 +94,9 @@
     check:
       jobs:
         - contrail-vnc-build-rhel7-queens
+        - contrail-vnc-security-scan-rhel7:
+            dependencies:
+              - contrail-vnc-build-rhel7-queens
     gate:
       queue: contrail-vnc
       jobs:
