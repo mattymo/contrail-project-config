@@ -151,6 +151,7 @@ diskimages:
       DIB_GRUB_TIMEOUT: '0'
       DIB_EPEL_DISABLED: '0'
       DIB_YUM_MINIMAL_CREATE_INTERFACES: '0'
+      DIB_YUM_REPO_CONF: /etc/nodepool/config/yum_conf/centos/CentOS-Base.repo
       DIB_INSTALLTYPE_pip_and_virtualenv: package
       # Pin image and kernel version, as 1062 is not supported for now
       # DIB_DEBUG_TRACE: '1'
@@ -180,6 +181,7 @@ diskimages:
       DIB_GRUB_TIMEOUT: '0'
       DIB_EPEL_DISABLED: '0'
       DIB_YUM_MINIMAL_CREATE_INTERFACES: '0'
+      DIB_YUM_REPO_CONF: /etc/nodepool/config/yum_conf/rhel/redhat.repo
       DIB_INSTALLTYPE_pip_and_virtualenv: package
       DIB_LOCAL_IMAGE: /opt/cloud_images/rhel76.qcow2
 # Red Hat registration goes here

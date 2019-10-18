@@ -1,0 +1,17 @@
+[centos7-os-mirror]
+baseurl = http://nexus/repository/centos7-os
+enabled = 1
+gpgcheck = 0
+name = centos7-os-mirror
+
+[centos7-updates-mirror]
+baseurl = http://nexus/repository/centos7-updates
+enabled = 1
+gpgcheck = 0
+name = centos7-updates-mirror
+
+[centos7-extras]
+baseurl = http://nexus/repository/centos7-extras
+enabled = 1
+gpgcheck = 0
+name = centos7-extras-mirror
